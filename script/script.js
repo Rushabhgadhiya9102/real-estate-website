@@ -1,4 +1,4 @@
-// ----------- LOADER ANIMATION ------------
+// ----------- L O A D E R - A N I M A T I O N ------------
 
 const content = document.querySelectorAll(".main-content");
 const loader = document.getElementById("loader");
@@ -21,9 +21,9 @@ window.addEventListener("load", () => {
   }, 3000);
 });
 
-// ----------- LOADER ANIMATION ------------
+// ----------- L O A D E R - A N I M A T I O N ------------
 
-// --------- NAVBAR ----------
+// --------- N A V B A R ----------
 
 let lastScrollY = window.scrollY;
 const header = document.getElementById("header");
@@ -44,9 +44,9 @@ window.addEventListener("scroll", () => {
   lastScrollY = window.scrollY;
 });
 
-// --------- NAVBAR ----------
+// --------- N A V B A R ----------
 
-// ----------- TOP BTN --------------
+// ----------- T O P - B T N --------------
 
 const topBtn = document.getElementById("topBtn");
 
@@ -73,4 +73,4 @@ topBtn.addEventListener("click", () => {
   });
 });
 
-// ----------- TOP BTN --------------
+// ----------- T O P - B T N --------------
